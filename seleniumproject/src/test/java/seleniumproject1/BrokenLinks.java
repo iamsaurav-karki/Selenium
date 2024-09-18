@@ -45,6 +45,7 @@ public class BrokenLinks {
 				
 				if (conn.getResponseCode() >= 400) {
 					System.out.println(ahrefattvalue + " is a broken link.");
+					System.out.println(conn.getResponseCode());
 					noofbrokenlinks++;
 				} else {
 					System.out.println(ahrefattvalue + " is not a broken link.");
@@ -56,6 +57,5 @@ public class BrokenLinks {
 		System.out.println("no of broken links:"+ noofbrokenlinks);
 		
 		// Close the browser
-		driver.quit();
 	}
 }

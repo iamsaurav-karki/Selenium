@@ -10,5 +10,10 @@
     <artifactId>selenium-java</artifactId>
     <version>4.24.0</version>
 </dependency>
+  	<dependency>
+  		<groupId>Practicing</groupId>
+  		<artifactId>Practicing</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
